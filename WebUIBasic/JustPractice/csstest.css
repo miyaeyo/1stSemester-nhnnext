@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
+body{
+  font-family: 'Slabo 27px', serif;
+}
+.test_div > span{
+  color: #503C3A;
+  font-size: 50px;
+}
+div{
+  width:500px;
+  height:200px;
+  background-color:#aaa;
+  }
+  span{
+    font-size: 40px;
+    color: #fff;
+  }
+  li{
+    font-size: 50px;
+    color: #61A679;
+    list-style: none;
+  }
+
+  li:nth-child(3){
+    color: #DD2E2C;
+  }
+  li:nth-child(even){
+    color: #E19733;
+  }
+  li:last-child{
+    color: #6A5572;
+  }
+
+#first{
+  font-size: 100;
+  color: pink;
+  list-style: none;
+}
+
+.ni{
+  color: #55A8B9;
+}
+.nano li{
+  background-color: #F2FDFF;
+}
+li:active{
+  background-color:#88B379;
+  color:#BF6E7C;
+}

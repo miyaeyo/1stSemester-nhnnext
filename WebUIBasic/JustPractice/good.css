@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic);
+@import url(http://fonts.googleapis.com/css?family=Lora:400italic);
+@import url(http://fonts.googleapis.com/css?family=Lora:700);
+@import url(http://fonts.googleapis.com/css?family=Lato:900,300,400);
+@import url(http://fonts.googleapis.com/css?family=Karma:300);
+
+header{position:relative;}
+h1{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 130px;color: #070C0D;
+  position:absolute;top:20px;left:50px;
+  border: 50px solid black;
+
+}
+h1 > a:hover {color: #626566;}
+h4{
+  font-family: 'Lora', serif;font-size:15px;
+  font-style: italic;color: #20A9FF;
+  position:absolute;top:40px;left:370px;
+}
+nav{font-family: 'Fjalla One', sans-serif;}
+header ul{
+  font-size: 20px;color: #070C0D;
+  position:absolute;top:100px;left:370px;}
+#faceAndTwit{position:absolute;top:300px;}
+article{position:absolute;top:500px;}
+footer{position:absolute;top:700px;}
+
+.black>a:hover{color:#20A9FF;}
+.black p:hover{color:#20A9FF;}/*안되무ㅠㅠ*/
+#blue > a{color: #20A9FF;}
+#blue > a:hover{color:#070C0D;}
+
+h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  font-style: bold;
+  color: #070C0D;
+}
+h2:hover {color: #B27ECD}
+h3{
+  color: #070C0D;
+  font-family: 'Karma', serif;
+  font-size: 30px;
+}
+
+.side-menu > a{color: white;}
+
+/*li{list-style: none;}
+a{
+  color: #070C0D;
+  text-decoration: none;
+  cursor: auto;
+}*/
+
+#side-menu-nav{
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  width: 250px;
+  height: 800px;
+}
+#side-menu-nav>nav>ul>li{
+  padding-top: 30px;
+}
+#facetwit>li>a{
+  color:#7F9499;
+  font-family: 'Lora', serif;
+  font-style: bold;
+}
+#facetwit>li>a>h5{
+  color:#7F9499;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 10px
+}
+#facetwit li:hover{visibility:hidden;}
+footer>nav>ul>li>a{
+  background-color: black;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+footer>nav>ul>li>a:hover{text-decoration: underline;}
+footer{
+  background-color: black;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+/*띄어쓰기로 구분하면됨 nav a 이런식으로*/

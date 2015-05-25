@@ -1,0 +1,10 @@
+1. css media query 창 크기 설정 할 수 있다.
+한번에 모바일용 태블릿용 컴퓨터용 다 만들 수 있음 .
+2. float랑 position
+ - position
+ static: default값
+ relative: 상대적 위치
+ absolute: 문서의 흐름과 상관없음, 보통 relative로 외각 박스 잡아두고 안에서 씀
+ fixed: 스크롤 내려도 그자리
+
+3. margin: 바깥쪽 여백/border: 경계선/padding: 안쪽여백

@@ -1,0 +1,22 @@
+html,body{width:100%;height:100%}
+html{overflow-y:scroll;font-size:10px}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{margin:0;padding:0;border:0;}
+body{background-color:#fff;*word-break:break-all;-ms-word-break:break-all;line-height: 1}
+header,aside,article,nav,main,section,details,figcaption,figure,footer,hgroup,menu{display: block;}
+img,fieldset,iframe{border:0 none}
+li{list-style:none}
+input,select,button{vertical-align:middle;outline:none}
+img{vertical-align:top}
+label,button{cursor:pointer}
+button{margin:0;padding:0}
+a{color:#000;text-decoration:none}
+button *{position:relative}
+button img{left:-3px;*left:auto}
+html:first-child select{height:20px;padding-right:6px}
+option{padding-right:6px}
+legend{*width:0}
+table{border-collapse:collapse;border-spacing:0}
+ol,ul{list-style: none;}
+blockquote,q{quotes: none;}
+blockquote:before,blockquote:after,q:before,q:after{content: '';content: none;}
+iframe{vertical-align:top}
