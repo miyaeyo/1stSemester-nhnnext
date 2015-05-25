@@ -12,8 +12,8 @@ public class Car {
 		
 		Hyundai newCar = Hyundai.getInstance();
 		for(int i=0; i<numOfCar; i++){
-			newCar.CarCount();
-			newCar.CarPrice(price);
+			newCar.increaseCarCount();
+			newCar.increaseCarPrice(price);
 		}
 	}
 }

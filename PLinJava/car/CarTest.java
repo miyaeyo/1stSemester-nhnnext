@@ -22,7 +22,7 @@ public class CarTest {
 		}
 		
 		Hyundai total = Hyundai.getInstance(); // 자동차가 하나 만들어질 때마다 Hyundai 자동차 회사에 가격과 대수가 쌓
-		System.out.println("Total: "+(total.CarCount()-1)+"대, "+(total.CarPrice(0))+"만원");
+		System.out.println("Total: "+(total.increaseCarCount()-1)+"대, "+(total.increaseCarPrice(0))+"만원");
 
 	}
 }
