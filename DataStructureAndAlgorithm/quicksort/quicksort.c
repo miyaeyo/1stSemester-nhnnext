@@ -1,11 +1,15 @@
+/* QUICK SORT
+* 151008 정승미
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-int comp(const void* x, const void*y){
-	int* xx = (int*)x;
-	int* yy = (int*)y;
-	return *xx - *yy;
-} // float  일때는  float
+//int comp(const void* x, const void*y){ // 이미 구현되어 있는 qsort함수 사용할 때 
+//	int* xx = (int*)x;
+//	int* yy = (int*)y;
+//	return *xx - *yy;
+//} // float  일때는  float
 
 void swap(int v[], int i, int j){
 	int temp = v[i];
@@ -37,16 +41,18 @@ int main(){
 	int v[20];
 	int n = sizeof(v) / sizeof(v[0]);
 	int i;
-	srand(time);
+	srand((unsigned)time(NULL));
 	//qsort(v, sizeof(v) / sizeof(v[0]), sizeof(v[0]), &comp);
 	for (i = 0; i < n; i++){
 		v[i] = rand() % 200;
 	}
+	puts("[original sequence]");
 	for (i = 0; i < n; i++){
 		printf("%d ", v[i]);
 	}
-	myqsort(v, 0, n-1);
 	printf("\n");
+	puts("[after quicksort]");
+	myqsort(v, 0, n - 1);
 	for (i = 0; i < n; i++){
 		printf("%d ", v[i]);
 	}
