@@ -1,6 +1,6 @@
 package assignment3;
 
-public class ScoreForMajor implements IScore {
+public class ScoreForMajor implements IScore { // 전공자들이 전공과목을 수강했을 때 학점 계산
 	private static ScoreForMajor instance = new ScoreForMajor();
 
 	public static ScoreForMajor getInstance(){

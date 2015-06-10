@@ -2,7 +2,7 @@ package assignment3;
 
 import java.util.ArrayList;
 
-public class Student {
+public class Student { // 학생 class, 전공과 수강과목, 수강과목별 학점 list를 가지고 있다. 
 	private String studentName;
 	private int studentId;
 	private String major;

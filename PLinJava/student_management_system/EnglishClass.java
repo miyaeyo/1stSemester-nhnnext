@@ -1,6 +1,6 @@
 package assignment3;
 
-public class EnglishClass extends Course {
+public class EnglishClass extends Course { // 영어 과목 singleton 
 	private EnglishClass(){
 		this.courseId = initId();
 		this.courseName = "영어";

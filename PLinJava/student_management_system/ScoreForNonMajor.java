@@ -1,6 +1,6 @@
 package assignment3;
 
-public class ScoreForNonMajor implements IScore{
+public class ScoreForNonMajor implements IScore{// 비전공자들이 과목 수강했을 때 학점계산
 
 	private static ScoreForNonMajor instance = new ScoreForNonMajor();
 

@@ -1,6 +1,6 @@
 package assignment3;
 
-public class Mathematics extends Major{
+public class Mathematics extends Major{// 수학전공 singleton
 	private Mathematics(){
 		this.majorId = initId();
 		this.majorName = "수학";

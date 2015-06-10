@@ -1,6 +1,6 @@
 package assignment3;
 
-public class Grade {
+public class Grade { // 학점을 저장하기 위한 class
 	private int studentId;
 	private String courseName;
 	private char grade;

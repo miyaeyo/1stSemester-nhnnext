@@ -1,7 +1,7 @@
 package assignment3;
 
 
-public class Reporting {
+public class Reporting { // reporting class
 	NEXTuniv next = NEXTuniv.getInstance();
 	StringBuilder report = new StringBuilder();
 	

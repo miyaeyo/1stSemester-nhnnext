@@ -3,7 +3,7 @@ package assignment3;
 import java.util.ArrayList;
 
 
-public class NEXTuniv {
+public class NEXTuniv { // 대학교, singleton, 학생, 전공, 과목 list를 모두 가지고 있다. 
 	private static NEXTuniv instance = new NEXTuniv();
 	private ArrayList<Student> student  = new ArrayList<Student>();
 	private ArrayList<Course> course = new ArrayList<Course>();
